@@ -49,7 +49,7 @@ sudo apt install i2c-tools -y
 i2cdetect -y 1
 Realiza un escaneo de los cables; si el hardware está bien conectado, debe aparecer la dirección 3c.
 
-Estructura del Proyecto
+📂 Estructura del Proyecto
 Para mantener el orden, el código se divide en diferentes archivos:
 
 main.py: Es el controlador central del proyecto. Arranca el programa, muestra el logo opcional de inicio, y entra en un bucle infinito para imprimir la hora en tiempo real.
@@ -60,7 +60,7 @@ utils.py: Guarda funciones de ayuda, encargándose de capturar la fecha y hora d
 
 assets/logo.pbm: Archivo de imagen opcional en blanco y negro (mapa de bits) utilizado para proyectar un icono inicial.
 
-Ejecución y Uso
+▶️ Ejecución y Uso
 Una vez armados los componentes y preparadas las librerías, asegúrate de dar permisos al archivo principal y ejecútalo mediante:
 
 Bash
